@@ -30,6 +30,10 @@ Resources I've used for preparation for Google Cloud Platform -  Associate Cloud
   - Managing service accounts
   - Viewing audit logs
 
+## Books
+
+- [Official Google Cloud Certified Associate Cloud Engineer Study Guide](<https://www.amazon.com/Google-Cloud-Certified-Associate-Engineer/dp/1119564417>)
+
 ### Learning path - Coursera
 
 - Specializations
@@ -53,17 +57,25 @@ Resources I've used for preparation for Google Cloud Platform -  Associate Cloud
 
 ### Notes
 
-- [General](./notes/general.md)
-- [Cloud Storage](./notes/cloud-storage.md)
-- [Compute Engine](./notes/compute-engine.md)
+- Misc
+  - [General](./notes/general.md)
+  - [IAM](./notes/iam.md)
+  - [PubSub](./notes/pub-sub.md)
+- Storage
+  - [Cloud Storage](./notes/cloud-storage.md)
+  - [Cloud BigQuery](./notes/storage/big-query.md)
+  - [Cloud Bigtable](./notes/storage/big-table.md)
+- Compute
+  - [Compute Engine](./notes/compute-engine.md)
+  - [App Engine](./notes/compute/app-engine.md)
+  - [Cloud Functions](./notes/compute/cloud-functions.md)
+  - [GKE](./notes/compute/gke.md)
 - [IAM](./notes/iam.md)
 
-### Sample Questions
+### Sample Exam Questions
 
-- [Course Diagnostic Questions](./questions/diagnostic-questions.md)
-- [Google Sample Questions](./questions/sample-questions.md)
-- [Examtopics Questions](./questions/questions.md)
-- [Examtopics Answers](./questions/answers.md)
+- [ExamTopics - GCP ACE](<https://www.examtopics.com/exams/google/associate-cloud-engineer/view/>)
+- [Google Sample Questions](<https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform>)
 
 ### Relevant Official Documentation
 
