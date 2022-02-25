@@ -65,3 +65,39 @@ You need to configure re-creation of VMs if they are unresponsive after 3 attemp
     - B. Use gcloud iam roles copy and specify your organization as the destination organization.
     - C. In the Google Cloud Platform Console, use the ג€˜create role from roleג€™ functionality.
     - D. In the Google Cloud Platform Console, use the ג€˜create roleג€™ functionality and select all applicable permissions.
+
+11) You need a dynamic way of provisioning VMs on Compute Engine. The exact specifications will be in a dedicated configuration file. You want to follow Google's recommended practices. Which method should you use?
+    - **A. Deployment Manager**
+    - B. Cloud Composer
+    - C. Managed Instance Group
+    - D. Unmanaged Instance Group
+
+12) You have a Dockerfile that you need to deploy on Kubernetes Engine. What should you do?
+    - A. Use kubectl app deploy <dockerfilename>.
+    - B. Use gcloud app deploy <dockerfilename>.
+    - **C. Create a docker image from the Dockerfile and upload it to Container Registry. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.**
+    - D. Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
+
+13) Your development team needs a new Jenkins server for their project. You need to deploy the server using the fewest steps possible. What should you do?
+    - A. Download and deploy the Jenkins Java WAR to App Engine Standard.
+    - B. Create a new Compute Engine instance and install Jenkins through the command line interface.
+    - C. Create a Kubernetes cluster on Compute Engine and create a deployment with the Jenkins Docker image.
+    - **D. Use GCP Marketplace to launch the Jenkins solution.**
+
+14) You need to update a deployment in Deployment Manager without any resource downtime in the deployment. Which command should you use?
+    - A. gcloud deployment-manager deployments create --config <deployment-config-path>
+    - **B. gcloud deployment-manager deployments update --config <deployment-config-path>**
+    - C. gcloud deployment-manager resources create --config <deployment-config-path>
+    - D. gcloud deployment-manager resources update --config <deployment-config-path>
+
+15) You need to run an important query in BigQuery but expect it to return a lot of records. You want to find out how much it will cost to run the query. You are using on-demand pricing. What should you do?
+    - A. Arrange to switch to Flat-Rate pricing for this query, then move back to on-demand.
+    - **B. Use the command line to run a dry run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.**
+    - C. Use the command line to run a dry run query to estimate the number of bytes returned. Then convert that bytes estimate to dollars using the Pricing Calculator.
+    - D. Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator.
+
+16) You have a single binary application that you want to run on Google Cloud Platform. You decided to automatically scale the application based on underlying infrastructure CPU usage. Your organizational policies require you to use virtual machines directly. You need to ensure that the application scaling is operationally efficient and completed as quickly as possible. What should you do?
+    - A. Create a Google Kubernetes Engine cluster, and use horizontal pod autoscaling to scale the application.
+    - **B. Create an instance template, and use the template in a managed instance group with autoscaling configured.**
+    - C. Create an instance template, and use the template in a managed instance group that scales up and down based on the time of day.
+    - D. Use a set of third-party tools to build automation around scaling the application up and down, based on Stackdriver CPU usage monitoring.
