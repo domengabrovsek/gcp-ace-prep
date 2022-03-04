@@ -19,7 +19,11 @@
 14) **B. gcloud deployment-manager deployments update --config <deployment-config-path>**
 15) **B. Use the command line to run a dry run query to estimate the number of bytes read. Then convert that bytes estimate to dollars using the Pricing Calculator.**
 16) **B. Create an instance template, and use the template in a managed instance group with autoscaling configured.**
-17) **D. Export your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.** 
+17) **D. Export your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.**
 18) **A. Use Cloud Storage Object Lifecycle Management using Age conditions with SetStorageClass and Delete actions. Set the SetStorageClass action to 90 days and the Delete action to 275 days (365 ג€" 90)**
 19) **A. When creating the VM via the web console, specify the service account under the ג€˜Identity and API Accessג€™ section.**
 20) **B. Install a RDP client in your desktop. Set a Windows username and password in the GCP Console. Use the credentials to log in to the instance.**
+21) **A. Create two configurations using gcloud config configurations create [NAME]. Run gcloud config configurations activate [NAME] to switch between accounts when running the commands to start the Compute Engine instances.**
+22) **D. Execute the Deployment Manager template using the ג€"-preview option in the same project, and observe the state of interdependent resources.**
+23) **D. Cloud Pub/Sub, Cloud Dataflow, Cloud Bigtable, BigQuery**
+24) **A. Use gcloud to create the new project, and then deploy your application to the new project.**

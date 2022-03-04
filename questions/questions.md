@@ -123,3 +123,29 @@ You need to configure re-creation of VMs if they are unresponsive after 3 attemp
     - B. Install a RDP client in your desktop. Set a Windows username and password in the GCP Console. Use the credentials to log in to the instance.
     - C. Set a Windows password in the GCP Console. Verify that a firewall rule for port 22 exists. Click the RDP button in the GCP Console and supply the credentials to log in.
     - D. Set a Windows username and password in the GCP Console. Verify that a firewall rule for port 3389 exists. Click the RDP button in the GCP Console, and supply the credentials to log in.
+  
+21) You have one GCP account running in your default region and zone and another account running in a non-default region and zone. You want to start a new
+Compute Engine instance in these two Google Cloud Platform accounts using the command line interface. What should you do?
+    - A. Create two configurations using gcloud config configurations create [NAME]. Run gcloud config configurations activate [NAME] to switch between accounts when running the commands to start the Compute Engine instances.
+    - B. Create two configurations using gcloud config configurations create [NAME]. Run gcloud configurations list to start the Compute Engine instances.
+    - C. Activate two configurations using gcloud configurations activate [NAME]. Run gcloud config list to start the Compute Engine instances.
+    - D. Activate two configurations using gcloud configurations activate [NAME]. Run gcloud configurations list to start the Compute Engine instances.
+  
+22) You significantly changed a complex Deployment Manager template and want to confirm that the dependencies of all defined resources are properly met before committing it to the project. You want the most rapid feedback on your changes. What should you do?
+    - A. Use granular logging statements within a Deployment Manager template authored in Python.
+    - B. Monitor activity of the Deployment Manager execution on the Stackdriver Logging page of the GCP Console.
+    - C. Execute the Deployment Manager template against a separate project with the same configuration, and monitor for failures.
+    - D. Execute the Deployment Manager template using the ג€"-preview option in the same project, and observe the state of interdependent resources.
+
+23) You are building a pipeline to process time-series data. Which Google Cloud Platform services should you put in boxes 1,2,3, and 4?
+![pipeline-time-series-data](./../images/0001200001.jpeg)
+    - A. Cloud Pub/Sub, Cloud Dataflow, Cloud Datastore, BigQuery
+    - B. Firebase Messages, Cloud Pub/Sub, Cloud Spanner, BigQuery
+    - C. Cloud Pub/Sub, Cloud Storage, BigQuery, Cloud Bigtable
+    - D. Cloud Pub/Sub, Cloud Dataflow, Cloud Bigtable, BigQuery
+
+24) You have a project for your App Engine application that serves a development environment. The required testing has succeeded and you want to create a new project to serve as your production environment. What should you do?
+    - A. Use gcloud to create the new project, and then deploy your application to the new project.
+    - B. Use gcloud to create the new project and to copy the deployed application to the new project.
+    - C. Create a Deployment Manager configuration file that copies the current App Engine deployment into a new project.
+    - D. Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project.
