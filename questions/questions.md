@@ -149,3 +149,165 @@ Compute Engine instance in these two Google Cloud Platform accounts using the co
     - B. Use gcloud to create the new project and to copy the deployed application to the new project.
     - C. Create a Deployment Manager configuration file that copies the current App Engine deployment into a new project.
     - D. Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project.
+
+25) You need to configure IAM access audit logging in BigQuery for external auditors. You want to follow Google-recommended practices. What should you do?
+    - A. Add the auditors group to the "logging.viewer" and "bigQuery.dataViewer" predefined IAM roles.
+    - B. Add the auditors group to two new custom IAM roles.
+    - C. Add the auditor user accounts to the "logging.viewer" and "bigQuery.dataViewer" predefined IAM roles.
+    - D. Add the auditor user accounts to two new custom IAM roles.
+
+26) You need to set up permissions for a set of Compute Engine instances to enable them to write data into a particular Cloud Storage bucket. You want to follow
+Google-recommended practices. What should you do?
+A. Create a service account with an access scope. Use the access scope ג€˜https://www.googleapis.com/auth/devstorage.write_onlyג€™.
+B. Create a service account with an access scope. Use the access scope ג€˜https://www.googleapis.com/auth/cloud-platformג€™.
+C. Create a service account and add it to the IAM role ג€˜storage.objectCreatorג€™ for that bucket.
+D. Create a service account and add it to the IAM role ג€˜storage.objectAdminג€™ for that bucket.
+
+27) You have sensitive data stored in three Cloud Storage buckets and have enabled data access logging. You want to verify activities for a particular user for these buckets, using the fewest possible steps. You need to verify the addition of metadata labels and which files have been viewed from those buckets. What should you do?
+A. Using the GCP Console, filter the Activity log to view the information.
+B. Using the GCP Console, filter the Stackdriver log to view the information.
+C. View the bucket in the Storage section of the GCP Console.
+D. Create a trace in Stackdriver to view the information.
+
+28) You are the project owner of a GCP project and want to delegate control to colleagues to manage buckets and files in Cloud Storage. You want to follow Google- recommended practices. Which IAM roles should you grant your colleagues?
+A. Project Editor
+B. Storage Admin
+C. Storage Object Admin
+D. Storage Object Creator
+
+29) You have an object in a Cloud Storage bucket that you want to share with an external company. The object contains sensitive data. You want access to the content to be removed after four hours. The external company does not have a Google account to which you can grant specific user-based access privileges. You want to use the most secure method that requires the fewest steps. What should you do?
+A. Create a signed URL with a four-hour expiration and share the URL with the company.
+B. Set object access to ג€˜publicג€™ and use object lifecycle management to remove the object after four hours.
+C. Configure the storage bucket as a static website and furnish the objectג€™s URL to the company. Delete the object from the storage bucket after four hours.
+D. Create a new Cloud Storage bucket specifically for the external company to access. Copy the object to that bucket. Delete the bucket after four hours have passed.
+
+30) You are creating a Google Kubernetes Engine (GKE) cluster with a cluster autoscaler feature enabled. You need to make sure that each node of the cluster will run a monitoring pod that sends container metrics to a third-party monitoring solution. What should you do?
+A. Deploy the monitoring pod in a StatefulSet object.
+B. Deploy the monitoring pod in a DaemonSet object.
+C. Reference the monitoring pod in a Deployment object.
+D. Reference the monitoring pod in a cluster initializer at the GKE cluster creation time.
+
+31) You want to send and consume Cloud Pub/Sub messages from your App Engine application. The Cloud Pub/Sub API is currently disabled. You will use a service account to authenticate your application to the API. You want to make sure your application can use Cloud Pub/Sub. What should you do?
+A. Enable the Cloud Pub/Sub API in the API Library on the GCP Console.
+B. Rely on the automatic enablement of the Cloud Pub/Sub API when the Service Account accesses it.
+C. Use Deployment Manager to deploy your application. Rely on the automatic enablement of all APIs used by the application being deployed.
+D. Grant the App Engine Default service account the role of Cloud Pub/Sub Admin. Have your application enable the API on the first connection to Cloud Pub/ Sub.
+
+32) You need to monitor resources that are distributed over different projects in Google Cloud Platform. You want to consolidate reporting under the same Stackdriver
+Monitoring dashboard. What should you do?
+A. Use Shared VPC to connect all projects, and link Stackdriver to one of the projects.
+B. For each project, create a Stackdriver account. In each project, create a service account for that project and grant it the role of Stackdriver Account Editor in all other projects.
+C. Configure a single Stackdriver account, and link all projects to the same account.
+D. Configure a single Stackdriver account for one of the projects. In Stackdriver, create a Group and add the other project names as criteria for that Group.
+
+33) You are deploying an application to a Compute Engine VM in a managed instance group. The application must be running at all times, but only a single instance of the VM should run per GCP project. How should you configure the instance group?
+A. Set autoscaling to On, set the minimum number of instances to 1, and then set the maximum number of instances to 1.
+B. Set autoscaling to Off, set the minimum number of instances to 1, and then set the maximum number of instances to 1.
+C. Set autoscaling to On, set the minimum number of instances to 1, and then set the maximum number of instances to 2.
+D. Set autoscaling to Off, set the minimum number of instances to 1, and then set the maximum number of instances to 2.
+
+34) You want to verify the IAM users and roles assigned within a GCP project named my-project. What should you do?
+A. Run gcloud iam roles list. Review the output section.
+B. Run gcloud iam service-accounts list. Review the output section.
+C. Navigate to the project and then to the IAM section in the GCP Console. Review the members and roles.
+D. Navigate to the project and then to the Roles section in the GCP Console. Review the roles and status.
+
+35) You need to create a new billing account and then link it with an existing Google Cloud Platform project. What should you do?
+A. Verify that you are Project Billing Manager for the GCP project. Update the existing project to link it to the existing billing account.
+B. Verify that you are Project Billing Manager for the GCP project. Create a new billing account and link the new billing account to the existing project.
+C. Verify that you are Billing Administrator for the billing account. Create a new project and link the new project to the existing billing account.
+D. Verify that you are Billing Administrator for the billing account. Update the existing project to link it to the existing billing account.
+
+36) You have one project called proj-sa where you manage all your service accounts. You want to be able to use a service account from this project to take snapshots of VMs running in another project called proj-vm. What should you do?
+A. Download the private key from the service account, and add it to each VMs custom metadata.
+B. Download the private key from the service account, and add the private key to each VMג€™s SSH keys.
+C. Grant the service account the IAM Role of Compute Storage Admin in the project called proj-vm.
+D. When creating the VMs, set the service accountג€™s API scope for Compute Engine to read/write.
+
+37) You created a Google Cloud Platform project with an App Engine application inside the project. You initially configured the application to be served from the us- central region. Now you want the application to be served from the asia-northeast1 region. What should you do?
+A. Change the default region property setting in the existing GCP project to asia-northeast1.
+B. Change the region property setting in the existing App Engine application from us-central to asia-northeast1.
+C. Create a second App Engine application in the existing GCP project and specify asia-northeast1 as the region to serve your application.
+D. Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.
+
+38) You need to grant access for three users so that they can view and edit table data on a Cloud Spanner instance. What should you do?
+A. Run gcloud iam roles describe roles/spanner.databaseUser. Add the users to the role.
+B. Run gcloud iam roles describe roles/spanner.databaseUser. Add the users to a new group. Add the group to the role
+C. Run gcloud iam roles describe roles/spanner.viewer - -project my-project. Add the users to the role.
+D. Run gcloud iam roles describe roles/spanner.viewer - -project my-project. Add the users to a new group. Add the group to the role.
+
+39) You create a new Google Kubernetes Engine (GKE) cluster and want to make sure that it always runs a supported and stable version of Kubernetes. What should you do?
+A. Enable the Node Auto-Repair feature for your GKE cluster.
+B. Enable the Node Auto-Upgrades feature for your GKE cluster.
+C. Select the latest available cluster version for your GKE cluster.
+D. Select ג€Container-Optimized OS (cos)ג€ as a node image for your GKE cluster.
+
+40) You have an instance group that you want to load balance. You want the load balancer to terminate the client SSL session. The instance group is used to serve a public web application over HTTPS. You want to follow Google-recommended practices. What should you do?
+A. Configure an HTTP(S) load balancer.
+B. Configure an internal TCP load balancer.
+C. Configure an external SSL proxy load balancer.
+D. Configure an external TCP proxy load balancer.
+
+41) You have 32 GB of data in a single file that you need to upload to a Nearline Storage bucket. The WAN connection you are using is rated at 1 Gbps, and you are the only one on the connection. You want to use as much of the rated 1 Gbps as possible to transfer the file rapidly. How should you upload the file?
+A. Use the GCP Console to transfer the file instead of gsutil.
+B. Enable parallel composite uploads using gsutil on the file transfer.
+C. Decrease the TCP window size on the machine initiating the transfer.
+D. Change the storage class of the bucket from Nearline to Multi-Regional.
+
+42) You've deployed a microservice called myapp1 to a Google Kubernetes Engine cluster using the YAML file specified below:
+
+You need to refactor this configuration so that the database password is not stored in plain text. You want to follow Google-recommended practices. What should you do?
+A. Store the database password inside the Docker image of the container, not in the YAML file.
+B. Store the database password inside a Secret object. Modify the YAML file to populate the DB_PASSWORD environment variable from the Secret.
+C. Store the database password inside a ConfigMap object. Modify the YAML file to populate the DB_PASSWORD environment variable from the ConfigMap.
+D. Store the database password in a file inside a Kubernetes persistent volume, and use a persistent volume claim to mount the volume to the container.
+
+43) You are running an application on multiple virtual machines within a managed instance group and have autoscaling enabled. The autoscaling policy is configured so that additional instances are added to the group if the CPU utilization of instances goes above 80%. VMs are added until the instance group reaches its maximum limit of five VMs or until CPU utilization of instances lowers to 80%. The initial delay for HTTP health checks against the instances is set to 30 seconds.
+The virtual machine instances take around three minutes to become available for users. You observe that when the instance group autoscales, it adds more instances then necessary to support the levels of end-user traffic. You want to properly maintain instance group sizes when autoscaling. What should you do?
+A. Set the maximum number of instances to 1.
+B. Decrease the maximum number of instances to 3.
+C. Use a TCP health check instead of an HTTP health check.
+D. Increase the initial delay of the HTTP health check to 200 seconds.
+
+44) You need to select and configure compute resources for a set of batch processing jobs. These jobs take around 2 hours to complete and are run nightly. You want to minimize service costs. What should you do?
+A. Select Google Kubernetes Engine. Use a single-node cluster with a small instance type.
+B. Select Google Kubernetes Engine. Use a three-node cluster with micro instance types.
+C. Select Compute Engine. Use preemptible VM instances of the appropriate standard machine type.
+D. Select Compute Engine. Use VM instance types that support micro bursting.
+
+45) You recently deployed a new version of an application to App Engine and then discovered a bug in the release. You need to immediately revert to the prior version of the application. What should you do?
+A. Run gcloud app restore.
+B. On the App Engine page of the GCP Console, select the application that needs to be reverted and click Revert.
+C. On the App Engine Versions page of the GCP Console, route 100% of the traffic to the previous version.
+D. Deploy the original version as a separate application. Then go to App Engine settings and split traffic between applications so that the original version serves 100% of the requests.
+
+46)  You deployed an App Engine application using gcloud app deploy, but it did not deploy to the intended project. You want to find out why this happened and where the application deployed. What should you do?
+A. Check the app.yaml file for your application and check project settings.
+B. Check the web-application.xml file for your application and check project settings.
+C. Go to Deployment Manager and review settings for deployment of applications.
+D. Go to Cloud Shell and run gcloud config list to review the Google Cloud configuration used for deployment.
+
+47) You want to configure 10 Compute Engine instances for availability when maintenance occurs. Your requirements state that these instances should attempt to automatically restart if they crash. Also, the instances should be highly available including during system maintenance. What should you do?
+A. Create an instance template for the instances. Set the ג€˜Automatic Restartג€™ to on. Set the ג€˜On-host maintenanceג€™ to Migrate VM instance. Add the instance template to an instance group.
+B. Create an instance template for the instances. Set ג€˜Automatic Restartג€™ to off. Set ג€˜On-host maintenanceג€™ to Terminate VM instances. Add the instance template to an instance group.
+C. Create an instance group for the instances. Set the ג€˜Autohealingג€™ health check to healthy (HTTP).
+D. Create an instance group for the instance. Verify that the ג€˜Advanced creation optionsג€™ setting for ג€˜do not retry machine creationג€™ is set to off.
+
+48) You host a static website on Cloud Storage. Recently, you began to include links to PDF files on this site. Currently, when users click on the links to these PDF files, their browsers prompt them to save the file onto their local system. Instead, you want the clicked PDF files to be displayed within the browser window directly, without prompting the user to save the file locally. What should you do?
+A. Enable Cloud CDN on the website frontend.
+B. Enable ג€˜Share publiclyג€™ on the PDF file objects.
+C. Set Content-Type metadata to application/pdf on the PDF file objects.
+D. Add a label to the storage bucket with a key of Content-Type and value of application/pdf.
+
+49) You have a virtual machine that is currently configured with 2 vCPUs and 4 GB of memory. It is running out of memory. You want to upgrade the virtual machine to have 8 GB of memory. What should you do?
+A. Rely on live migration to move the workload to a machine with more memory.
+B. Use gcloud to add metadata to the VM. Set the key to required-memory-size and the value to 8 GB.
+C. Stop the VM, change the machine type to n1-standard-8, and start the VM.
+D. Stop the VM, increase the memory to 8 GB, and start the VM.
+
+50) You have production and test workloads that you want to deploy on Compute Engine. Production VMs need to be in a different subnet than the test VMs. All the
+VMs must be able to reach each other over Internal IP without creating additional routes. You need to set up VPC and the 2 subnets. Which configuration meets these requirements?
+A. Create a single custom VPC with 2 subnets. Create each subnet in a different region and with a different CIDR range.
+B. Create a single custom VPC with 2 subnets. Create each subnet in the same region and with the same CIDR range.
+C. Create 2 custom VPCs, each with a single subnet. Create each subnet in a different region and with a different CIDR range.
+D. Create 2 custom VPCs, each with a single subnet. Create each subnet in the same region and with the same CIDR range.
