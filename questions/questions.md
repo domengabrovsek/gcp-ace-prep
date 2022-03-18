@@ -311,3 +311,16 @@ A. Create a single custom VPC with 2 subnets. Create each subnet in a different 
 B. Create a single custom VPC with 2 subnets. Create each subnet in the same region and with the same CIDR range.
 C. Create 2 custom VPCs, each with a single subnet. Create each subnet in a different region and with a different CIDR range.
 D. Create 2 custom VPCs, each with a single subnet. Create each subnet in the same region and with the same CIDR range.
+
+51) You need to create an autoscaling managed instance group for an HTTPS web application. You want to make sure that unhealthy VMs are recreated. What should you do?
+A. Create a health check on port 443 and use that when creating the Managed Instance Group.
+B. Select Multi-Zone instead of Single-Zone when creating the Managed Instance Group.
+C. In the Instance Template, add the label ג€˜health-checkג€™.
+D. In the Instance Template, add a startup script that sends a heartbeat to the metadata server.
+
+52) Your company has a Google Cloud Platform project that uses BigQuery for data warehousing. Your data science team changes frequently and has few members.
+You need to allow members of this team to perform queries. You want to follow Google-recommended practices. What should you do?
+A. 1. Create an IAM entry for each data scientist's user account. 2. Assign the BigQuery jobUser role to the group.
+B. 1. Create an IAM entry for each data scientist's user account. 2. Assign the BigQuery dataViewer user role to the group.
+C. 1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery jobUser role to the group.
+D. 1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery dataViewer user role to the group.

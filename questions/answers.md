@@ -53,3 +53,5 @@
 48) C. Set Content-Type metadata to application/pdf on the PDF file objects.
 49) D. Stop the VM, increase the memory to 8 GB, and start the VM.
 50) A. Create a single custom VPC with 2 subnets. Create each subnet in a different region and with a different CIDR range.
+51) A. Create a health check on port 443 and use that when creating the Managed Instance Group.
+52) C. 1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery jobUser role to the group.
