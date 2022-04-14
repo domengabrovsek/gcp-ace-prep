@@ -1,6 +1,12 @@
 # compute engine cli cheatsheet
 
 ```bash
+
+# create an instance
+gcloud compute instances create [instance_name]
+
+
+
 # start an instance or more instances
 gcloud compute instances start [instance_name]
 
