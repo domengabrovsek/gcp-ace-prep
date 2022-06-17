@@ -63,3 +63,35 @@ A: Configure a standard tier proxied external https load balancer connected to t
 
 Q: Which Google Cloud load balancing option runs at Layer 7 of the TCP stack?
 A: Global http(s)
+
+## Module 3: TODO
+
+Q: Cymbal Superstore’s sales department has a medium-sized MySQL database. This database includes user-defined functions and is used internally by the marketing department at Cymbal Superstore HQ. The sales department asks you to migrate the database to Google Cloud in the most timely and economical way. What should you do?
+A: Configure a Compute Engine VM with an N2 machine type, install MySQL, and restore your data to the new instance
+
+Q: The backend of Cymbal Superstore’s e-commerce system consists of managed instance groups. You need to update the operating system of the instances in an automated way using minimal resources. What do you do?
+A: Create a new instance template, then click Update VMs. Set the update type to PROACTIVE. Click Start.
+
+Q: The development team for the supply chain project is ready to start building their new cloud app using a small Kubernetes cluster for the pilot. The cluster should only be available to team members and does not need to be highly available. The developers also need the ability to change the cluster architecture as they deploy new capabilities. How would you implement this?
+A: Implement a private standard zonal cluster in us-central1-a with a default pool and an Ubuntu image.
+
+Q: You need to quickly deploy a containerized web application on Google Cloud. You know the services you want to be exposed. You do not want to manage infrastructure. You only want to pay when requests are being handled and need support for custom packages. What technology meets these needs?
+A: Cloud Run
+
+Q: You need to analyze and act on files being added to a Cloud Storage bucket. Your programming team is proficient in Python. The analysis you need to do takes at most 5 minutes. You implement a Cloud Function to accomplish your processing and specify a trigger resource pointing to your bucket. How should you configure the --trigger-event parameter using gcloud?
+A: --trigger-event google.storage.object.finalize
+
+Q: You require a Cloud Storage bucket serving users in New York City. There is a need for geo-redundancy. You do not plan on using ACLs. What CLI command do you use?
+A: Run a gsutil mb command specifying a dual-region bucket and an option to turn ACL evaluation off.
+
+Q: Cymbal Superstore asks you to implement Cloud SQL as a database backend to their supply chain application. You want to configure automatic failover in case of a zone outage. You decide to use thegcloud sql instances create command set to accomplish this. Which gcloud command line argument is required to configure the stated failover capability as you create the required instances?
+A: --availability-type
+
+Q: Cymbal Superstore’s marketing department needs to load some slowly changing data into BigQuery. The data arrives hourly in a Cloud Storage bucket. You want to minimize cost and implement this in the fewest steps. What should you do?
+A: Use the BigQuery data transfer service to schedule a transfer between your bucket and BigQuery.
+
+Q: Which Virtual Private Cloud (VPC) network type allows you to fully control IP ranges and the definition of regional subnets?
+A: Custom mode network
+
+Q: What action does theterraform apply command perform?
+A: Sets up resources requested in the terraform config file.
