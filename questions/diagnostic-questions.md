@@ -96,7 +96,7 @@ A: Custom mode network
 Q: What action does theterraform apply command perform?
 A: Sets up resources requested in the terraform config file.
 
-## Module 4: TODO
+## Module 4: Ensuring Successful Operation of a Cloud Solution
 
 Q: You want to view a description of your available snapshots using the command line interface (CLI). What gcloud command should you use?
 A: gcloud compute snapshots list
