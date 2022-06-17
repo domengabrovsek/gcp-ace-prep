@@ -1,6 +1,6 @@
 # gcp-ace-prep
 
-Preparation for GCP Associate Cloud Engineer certification
+Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
 
 ## Resources
 
@@ -16,25 +16,38 @@ Preparation for GCP Associate Cloud Engineer certification
 
 ### Official study docs
 
-- IAM: <https://cloud.google.com/iam/docs/overview>  
-  - Resources hierarchy: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>
-  - Projects: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>
-  - Role types: <https://cloud.google.com/iam/docs/understanding-roles#role_types>
-- Billing:
-  - Billing accounts: <https://cloud.google.com/billing/docs/how-to/manage-billing-account>
-  - Budgets: <https://cloud.google.com/billing/docs/how-to/budgets>
-  - Pricing calculator: <https://cloud.google.com/products/calculator/>
-- Compute:
-  - Choosing Compute options: <https://cloud.google.com/blog/products/compute/choosing-the-right-compute-option-in-gcp-a-decision-tree>
-  - Hosting options: <https://cloud.google.com/hosting-options>
-- Storage: <https://cloud.google.com/products/storage>
-  - Storage classes: <https://cloud.google.com/storage/docs/storage-classes>
+- [IAM](<https://cloud.google.com/iam/docs/overview>)
+  - [Resources hierarchy](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>)
+  - [Projects](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>)
+  - [Role types](<https://cloud.google.com/iam/docs/understanding-roles#role_types>)
+- [Billing](<https://cloud.google.com/billing/docs>)
+  - [Billing accounts](<https://cloud.google.com/billing/docs/how-to/manage-billing-account>)
+  - [Budgets](<https://cloud.google.com/billing/docs/how-to/budgets>)
+  - [Pricing calculator](<https://cloud.google.com/products/calculator/>)
+- [Compute](<https://cloud.google.com/compute/docs>)
+  - [Choosing Compute options](<https://cloud.google.com/blog/products/compute/choosing-the-right-compute-option-in-gcp-a-decision-tree>)
+  - [Hosting options](<https://cloud.google.com/hosting-options>)
+  - [Instance groups](<https://cloud.google.com/compute/docs/instance-groups>)
+    - [Groups of managed instances](<https://cloud.google.com/compute/docs/instance-groups/creating-groups-of-managed-instances>)
+  - [GKE](<https://cloud.google.com/kubernetes-engine/docs>)
+    - [Types of clusters](<https://cloud.google.com/kubernetes-engine/docs/concepts/types-of-clusters>)
+  - [App Engine](<https://cloud.google.com/appengine/docs>)
+    - [App Engine Environments](<https://cloud.google.com/appengine/docs/the-appengine-environments>)
+  - [Cloud Run](<https://cloud.google.com/run/docs>)
+    - [Overview](<https://cloud.google.com/blog/topics/developers-practitioners/cloud-run-story-serverless-containers>)
+  - [Cloud Functions](<https://cloud.google.com/functions>)
+    - [Overview](<https://cloud.google.com/blog/topics/developers-practitioners/learn-cloud-functions-snap>)
+- [Storage](<https://cloud.google.com/products/storage>)
+  - [Storage classes](<https://cloud.google.com/storage/docs/storage-classes>)
+  - [Cloud SQL](<https://cloud.google.com/sql/docs/mysql>)
+    - [Features](<https://cloud.google.com/sql/docs/mysql/features>)
+    - [Create instances](<https://cloud.google.com/sql/docs/mysql/create-instance>)
 
 ### CloudSkillBoost Quests
 
-- Create and Manage Cloud Resources: <https://www.qwiklabs.com/quests/120> 
-- Set Up and Configure a Cloud Environment in Google Cloud: <https://www.qwiklabs.com/quests/119>
-- Perform Foundational Infrastructure Tasks in Google Cloud: <https://www.qwiklabs.com/quests/118>
+- [Create and Manage Cloud Resources](<https://www.qwiklabs.com/quests/120> )
+- [Set Up and Configure a Cloud Environment in Google Cloud](<https://www.qwiklabs.com/quests/119>)
+- [Perform Foundational Infrastructure Tasks in Google Cloud](<https://www.qwiklabs.com/quests/118>)
 
 ### Articles
 
@@ -49,4 +62,4 @@ Preparation for GCP Associate Cloud Engineer certification
 
 ### Misc
 
-- Test center: <https://www.kryteriononline.com/Locate-Test-Center>
+- [Test center](<https://www.kryteriononline.com/Locate-Test-Center>)
