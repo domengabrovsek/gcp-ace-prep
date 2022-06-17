@@ -17,15 +17,23 @@ Preparation for GCP Associate Cloud Engineer certification
 ### Official study docs
 
 - IAM: <https://cloud.google.com/iam/docs/overview>  
-- Resources hierarchy: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>
-- Projects: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>
-- Role types: <https://cloud.google.com/iam/docs/understanding-roles#role_types>
-- Billing accounts: <https://cloud.google.com/billing/docs/how-to/manage-billing-account>
-- Budgets: <https://cloud.google.com/billing/docs/how-to/budgets>
+  - Resources hierarchy: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>
+  - Projects: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>
+  - Role types: <https://cloud.google.com/iam/docs/understanding-roles#role_types>
+- Billing:
+  - Billing accounts: <https://cloud.google.com/billing/docs/how-to/manage-billing-account>
+  - Budgets: <https://cloud.google.com/billing/docs/how-to/budgets>
+  - Pricing calculator: <https://cloud.google.com/products/calculator/>
+- Compute:
+  - Choosing Compute options: <https://cloud.google.com/blog/products/compute/choosing-the-right-compute-option-in-gcp-a-decision-tree>
+  - Hosting options: <https://cloud.google.com/hosting-options>
+- Storage: <https://cloud.google.com/products/storage>
+  - Storage classes: <https://cloud.google.com/storage/docs/storage-classes>
 
 ### CloudSkillBoost Quests
 
-- Create and Manage Cloud Resources: <https://www.qwiklabs.com/quests/120>
+- Create and Manage Cloud Resources: <https://www.qwiklabs.com/quests/120> 
+- Set Up and Configure a Cloud Environment in Google Cloud: <https://www.qwiklabs.com/quests/119>
 - Perform Foundational Infrastructure Tasks in Google Cloud: <https://www.qwiklabs.com/quests/118>
 
 ### Articles

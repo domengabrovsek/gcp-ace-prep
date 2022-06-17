@@ -1,6 +1,6 @@
 # Diagnostic questions
 
-## Chapter 1
+## Module 1: 
 
 Q: Stella is a new member of a team in your company who has been put in charge of monitoring VM instances in the organization. Stella will need the required permissions to perform this role. How should you grant her those permissions?
 A: Add Stella to a Google Group in your organization. Bind that group to roles/compute.viewer.
@@ -32,7 +32,7 @@ A: Cloud Shell, Cloud SDK
 Q: You want to use the Cloud Shell to copy files to your Cloud Storage bucket. Which Cloud SDK command should you use?
 A: gsutil
 
-## Chapter 2
+## Module 2: Planning and Configuring Cloud Solutions
 
 Q: The projected amount of cloud storage required for Cymbal Superstore to enable users to post pictures for project reviews is 10 TB of immediate access storage in the US and 30 TB of storage for historical posts in a bucket located near Cymbal Superstore’s headquarters. The contents of this bucket will need to be accessed once every 30 days. You want to estimate the cost of these storage resources to ensure this is economically feasible. What should you do?
 A: Use the pricing calculator to estimate the price for 10 TB of multi-region standard storage, 30 TB for regional Nearline, and egress charges for reads from the bucket.
