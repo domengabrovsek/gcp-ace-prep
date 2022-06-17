@@ -4,6 +4,20 @@ Preparation for GCP Associate Cloud Engineer certification
 
 ## Resources
 
+Study docs:
+
+- IAM: <https://cloud.google.com/iam/docs/overview>  
+- Resources hierarchy: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>
+- Projects: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>
+- Role types: <https://cloud.google.com/iam/docs/understanding-roles#role_types>
+- Billing accounts: <https://cloud.google.com/billing/docs/how-to/manage-billing-account>
+- Budgets: <https://cloud.google.com/billing/docs/how-to/budgets>
+
+Quests:
+
+- Create and Manage Cloud Resources: <https://www.qwiklabs.com/quests/120>
+- Perform Foundational Infrastructure Tasks in Google Cloud: <https://www.qwiklabs.com/quests/118>
+
 Courses:
 
 - <https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/>
@@ -27,62 +41,3 @@ Test center:
 Databases:
 
 - <https://cloud.google.com/blog/topics/developers-practitioners/your-google-cloud-database-options-explained>
-
-## CLI structure
-
-```bash
-
-gcloud [service] [subservice] [command]
-
-# example
-gcloud compute instances list
-gcloud container clusters list
-
-# flags
---account - specifies account
---configuration - use a configuration file with key-value pairs
---flatten - flatten key-value records if key has multiple values
---format - specify format (JSON, YAML, CSV, TEXT)
---help - help details
---project - specify project
---quiet - disable interactive prompts
---verbosity - specify level of output (debug, info, warning, error)
---zone - specify zone
-```
-
-## Other commands
-
-```bash
-# cloud storage commands
-
-# change type of storage
-gsutil rewrite -s [STORAGE_CLASS] gs://[PATH_TO_OBJECT]
-
-# move objects between buckets
-gsutil mv gs://[SOURCE_BUCKET_NAME]/[SOURCE_OBJECT_NAME] gs://[DESTINATION_BUCKET_NAME]/[DESTINATION_OBJECT_NAME]
-------------------------------------------------------------
-# datastore commands
-
-# create cloud storage buckets first
-gsutil mb gs://[BUCKET_NAME]/
-
-# create a backup
-gcloud –namespaces='[NAMESPACE]' gs://[BUCKET_NAME}
-
-# export a backup
-gcloud datastore export –namespaces='(default)' gs://ace_exam_backups
-
-# import a backup
-gcloud datastore import gs://[BUCKET]/[PATH]/[FILE].overall_export_metadata
-------------------------------------------------------------
-# sql commands
-
-# connect to the database
-gcloud sql connect [db_name] --user=root
-
-# create a backup 
-gcloud sql backups create ––async ––instance [INSTANCE_NAME]
-
-# auto backups point in time
-gcloud sql instances patch [INSTANCE_NAME] –-backup-start-time [HH:MM]
-```
