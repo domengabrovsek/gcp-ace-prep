@@ -4,7 +4,17 @@ Preparation for GCP Associate Cloud Engineer certification
 
 ## Resources
 
-Study docs:
+### Learning path
+
+- [Preparing for Google Cloud Certification: Cloud Engineer](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
+  - [Google Cloud Fundamentals: Core Infrastructure](https://www.coursera.org/learn/gcp-fundamentals?specialization=cloud-engineering-gcp)
+  - [Essential Google Cloud Infrastructure: Foundation](https://www.coursera.org/learn/gcp-infrastructure-foundation?specialization=cloud-engineering-gcp)
+  - [Essential Google Cloud Infrastructure: Core Services](https://www.coursera.org/learn/gcp-infrastructure-core-services?specialization=cloud-engineering-gcp) 
+  - [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation?specialization=cloud-engineering-gcp)
+  - [Architecting with Google Kubernetes Engine: Foundations](https://www.coursera.org/learn/foundations-google-kubernetes-engine-gke?specialization=cloud-engineering-gcp)
+  - [Preparing for Your Associate Cloud Engineer Journey](https://www.coursera.org/learn/preparing-cloud-associate-cloud-engineer-exam?specialization=cloud-engineering-gcp)
+
+### Official study docs
 
 - IAM: <https://cloud.google.com/iam/docs/overview>  
 - Resources hierarchy: <https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>
@@ -13,18 +23,12 @@ Study docs:
 - Billing accounts: <https://cloud.google.com/billing/docs/how-to/manage-billing-account>
 - Budgets: <https://cloud.google.com/billing/docs/how-to/budgets>
 
-Quests:
+### CloudSkillBoost Quests
 
 - Create and Manage Cloud Resources: <https://www.qwiklabs.com/quests/120>
 - Perform Foundational Infrastructure Tasks in Google Cloud: <https://www.qwiklabs.com/quests/118>
 
-Courses:
-
-- <https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/>
-- <https://www.coursera.org/professional-certificates/cloud-engineering-gcp#courses>
-- <https://www.whizlabs.com/google-cloud-certified-associate-cloud-engineer/>
-
-Articles:
+### Articles
 
 - <https://googlecloudcheatsheet.withgoogle.com/>
 - <https://grumpygrace.dev/posts/gcp-flowcharts/>
@@ -33,11 +37,8 @@ Articles:
 - <https://www.youtube.com/channel/UCIGDDqu5DzlaaC4XzXj_4-A>
 - <https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations>
 - <https://cloud.google.com/certification>
-
-Test center:
-
-- <https://www.kryteriononline.com/Locate-Test-Center>
-
-Databases:
-
 - <https://cloud.google.com/blog/topics/developers-practitioners/your-google-cloud-database-options-explained>
+
+### Misc
+
+- Test center: <https://www.kryteriononline.com/Locate-Test-Center>
