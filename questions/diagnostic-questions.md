@@ -1,6 +1,6 @@
 # Diagnostic questions
 
-## Module 1: 
+## Module 1: Setting Up a Cloud Solution Environment
 
 Q: Stella is a new member of a team in your company who has been put in charge of monitoring VM instances in the organization. Stella will need the required permissions to perform this role. How should you grant her those permissions?
 A: Add Stella to a Google Group in your organization. Bind that group to roles/compute.viewer.
@@ -64,7 +64,7 @@ A: Configure a standard tier proxied external https load balancer connected to t
 Q: Which Google Cloud load balancing option runs at Layer 7 of the TCP stack?
 A: Global http(s)
 
-## Module 3: TODO
+## Module 3: Deploying and Implementing Cloud Solutions
 
 Q: Cymbal Superstore’s sales department has a medium-sized MySQL database. This database includes user-defined functions and is used internally by the marketing department at Cymbal Superstore HQ. The sales department asks you to migrate the database to Google Cloud in the most timely and economical way. What should you do?
 A: Configure a Compute Engine VM with an N2 machine type, install MySQL, and restore your data to the new instance
