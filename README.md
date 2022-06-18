@@ -46,11 +46,13 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
 - [Set Up and Configure a Cloud Environment in Google Cloud](<https://www.qwiklabs.com/quests/119>)
 - [Perform Foundational Infrastructure Tasks in Google Cloud](<https://www.qwiklabs.com/quests/118>)
 
-### Official documentation
+### Relevant Official Documentation
 
 - [IAM](<https://cloud.google.com/iam/docs/overview>)
   - [Resources hierarchy](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>)
   - [Projects](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>)
+  - [Understanding Roles](<https://cloud.google.com/iam/docs/understanding-roles>)
+  - [Understanding Custom Roles](<https://cloud.google.com/iam/docs/understanding-custom-roles>)
   - [Role types](<https://cloud.google.com/iam/docs/understanding-roles#role_types>)
   - [Creating Custom Roles](<https://cloud.google.com/iam/docs/creating-custom-roles>)
 - [Billing](<https://cloud.google.com/billing/docs>)
@@ -74,6 +76,8 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
     - [Ingress External (HTTPS) Load Balancing](<https://cloud.google.com/kubernetes-engine/docs/concepts/ingress-xlb>)
     - [Deploying Workloads](<https://cloud.google.com/kubernetes-engine/docs/how-to/deploying-workloads-overview>)
     - [K8s Object Management](<https://kubernetes.io/docs/concepts/overview/working-with-objects/object-management/>)
+    - [Exposing Apps](<https://cloud.google.com/kubernetes-engine/docs/how-to/exposing-apps>)
+    - [Autopilot](<https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview>)
   - [App Engine](<https://cloud.google.com/appengine/docs>)
     - [App Engine Environments](<https://cloud.google.com/appengine/docs/the-appengine-environments>)
   - [Cloud Run](<https://cloud.google.com/run/docs>)
@@ -81,11 +85,26 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
     - [Container Instance Autoscaling](<https://cloud.google.com/run/docs/about-instance-autoscaling>)
   - [Cloud Functions](<https://cloud.google.com/functions>)
     - [Overview](<https://cloud.google.com/blog/topics/developers-practitioners/learn-cloud-functions-snap>)
-- [Storage](<https://cloud.google.com/products/storage>)
-  - [Storage classes](<https://cloud.google.com/storage/docs/storage-classes>)
+    - [Event Triggers](<https://cloud.google.com/functions/docs/concepts/events-triggers>)
+- Storage
+  - [Cloud Storage](<https://cloud.google.com/storage/docs>)
+    - [Storage classes](<https://cloud.google.com/storage/docs/storage-classes>)
+    - [Object Lifecycle](<https://cloud.google.com/storage/docs/lifecycle>)
   - [Cloud SQL](<https://cloud.google.com/sql/docs/mysql>)
     - [Features](<https://cloud.google.com/sql/docs/mysql/features>)
     - [Create instances](<https://cloud.google.com/sql/docs/mysql/create-instance>)
+  - [Bigtable](<https://cloud.google.com/bigtable/docs/overview>)
+  - [BigQuery](<https://cloud.google.com/bigquery/docs>)
+- [PubSub](<https://cloud.google.com/pubsub/docs/overview>)
+- Networking
+  - [VPN](<https://cloud.google.com/network-connectivity/docs/vpn/concepts/overview>)
+  - [VPC](<https://cloud.google.com/vpc/docs>)
+    - [Using VPC](<https://cloud.google.com/vpc/docs/using-vpc>)
+    - [Alias IP](<https://cloud.google.com/vpc/docs/alias-ip>)
+    - [Bring your own IP](<https://cloud.google.com/vpc/docs/bring-your-own-ip>)
+    - [Expand Subnet](<https://cloud.google.com/vpc/docs/using-vpc#expand-subnet>)
+- [Cloud Foundation Toolkit (CFT)](<https://cloud.google.com/foundation-toolkit>)
+- [Transfer Appliance](<https://cloud.google.com/transfer-appliance/docs/4.0>)
 
 ### Other study resources
 
