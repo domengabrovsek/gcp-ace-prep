@@ -1,6 +1,6 @@
 # gcp-ace-prep
 
-Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
+Resources I've used for preparation for Google Cloud Platform -  Associate Cloud Engineer certification.
 
 ## Resources
 
