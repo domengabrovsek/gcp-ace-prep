@@ -32,13 +32,18 @@ Resources I've used for preparation for Google Cloud Platform -  Associate Cloud
 
 ### Learning path - Coursera
 
-- [Preparing for Google Cloud Certification: Cloud Engineer](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
+- Specializations
+  - [Architecting with Google Compute Engine Specialization](<https://www.coursera.org/specializations/gcp-architecture>)
+  - [Preparing for Google Cloud Certification: Cloud Engineer](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
+
+- Individual Courses
   - [Google Cloud Fundamentals: Core Infrastructure](https://www.coursera.org/learn/gcp-fundamentals?specialization=cloud-engineering-gcp)
   - [Essential Google Cloud Infrastructure: Foundation](https://www.coursera.org/learn/gcp-infrastructure-foundation?specialization=cloud-engineering-gcp)
   - [Essential Google Cloud Infrastructure: Core Services](https://www.coursera.org/learn/gcp-infrastructure-core-services?specialization=cloud-engineering-gcp) 
   - [Elastic Google Cloud Infrastructure: Scaling and Automation](https://www.coursera.org/learn/gcp-infrastructure-scaling-automation?specialization=cloud-engineering-gcp)
   - [Architecting with Google Kubernetes Engine: Foundations](https://www.coursera.org/learn/foundations-google-kubernetes-engine-gke?specialization=cloud-engineering-gcp)
   - [Preparing for Your Associate Cloud Engineer Journey](https://www.coursera.org/learn/preparing-cloud-associate-cloud-engineer-exam?specialization=cloud-engineering-gcp)
+  - [Reliable Google Cloud Infrastructure: Design and Process](<https://www.coursera.org/learn/cloud-infrastructure-design-process>)
 
 ### CloudSkillBoost Quests
 
