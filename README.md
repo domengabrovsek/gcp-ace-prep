@@ -4,6 +4,32 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
 
 ## Resources
 
+### Study areas
+
+- Planning and Configuring Cloud Solutions
+  - Planning and estimating using the Pricing Calculator
+  - Planning and configuring compute resources
+  - Planning and configuring data storage options
+  - Planning and configuring network resources
+- Deploying and Implementing Cloud Solutions
+  - Deploying and implementing Compute Engine resources
+  - Deploying and implementing Google Kubernetes Engine resources
+  - Deploying and implementing Cloud Run and Cloud Functions resources
+  - Deploying and implementing data solutions
+  - Deploying and implementing networking resources
+  - Deploying a solution using Cloud Marketplace
+  - Implementing resources via infrastructure as code
+- Ensuring Successful Operation of a Cloud Solution
+  - Managing Compute Engine resources
+  - Managing Google Kubernetes Engine resources
+  - Managing Cloud Run resources
+  - Managing storage and database solutions
+  - Managing networking resources Monitoring and logging
+- Configuring Access and Security
+  - Managing IAM
+  - Managing service accounts
+  - Viewing audit logs
+
 ### Learning path
 
 - [Preparing for Google Cloud Certification: Cloud Engineer](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
@@ -14,12 +40,19 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
   - [Architecting with Google Kubernetes Engine: Foundations](https://www.coursera.org/learn/foundations-google-kubernetes-engine-gke?specialization=cloud-engineering-gcp)
   - [Preparing for Your Associate Cloud Engineer Journey](https://www.coursera.org/learn/preparing-cloud-associate-cloud-engineer-exam?specialization=cloud-engineering-gcp)
 
-### Official study docs
+### CloudSkillBoost Quests
+
+- [Create and Manage Cloud Resources](<https://www.qwiklabs.com/quests/120> )
+- [Set Up and Configure a Cloud Environment in Google Cloud](<https://www.qwiklabs.com/quests/119>)
+- [Perform Foundational Infrastructure Tasks in Google Cloud](<https://www.qwiklabs.com/quests/118>)
+
+### Official documentation
 
 - [IAM](<https://cloud.google.com/iam/docs/overview>)
   - [Resources hierarchy](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#resource-hierarchy-detail>)
   - [Projects](<https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy#projects>)
   - [Role types](<https://cloud.google.com/iam/docs/understanding-roles#role_types>)
+  - [Creating Custom Roles](<https://cloud.google.com/iam/docs/creating-custom-roles>)
 - [Billing](<https://cloud.google.com/billing/docs>)
   - [Billing accounts](<https://cloud.google.com/billing/docs/how-to/manage-billing-account>)
   - [Budgets](<https://cloud.google.com/billing/docs/how-to/budgets>)
@@ -54,13 +87,7 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
     - [Features](<https://cloud.google.com/sql/docs/mysql/features>)
     - [Create instances](<https://cloud.google.com/sql/docs/mysql/create-instance>)
 
-### CloudSkillBoost Quests
-
-- [Create and Manage Cloud Resources](<https://www.qwiklabs.com/quests/120> )
-- [Set Up and Configure a Cloud Environment in Google Cloud](<https://www.qwiklabs.com/quests/119>)
-- [Perform Foundational Infrastructure Tasks in Google Cloud](<https://www.qwiklabs.com/quests/118>)
-
-### Articles
+### Other study resources
 
 - <https://googlecloudcheatsheet.withgoogle.com/>
 - <https://grumpygrace.dev/posts/gcp-flowcharts/>
