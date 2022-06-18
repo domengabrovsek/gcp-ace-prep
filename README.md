@@ -30,7 +30,7 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
   - Managing service accounts
   - Viewing audit logs
 
-### Learning path
+### Learning path - Coursera
 
 - [Preparing for Google Cloud Certification: Cloud Engineer](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
   - [Google Cloud Fundamentals: Core Infrastructure](https://www.coursera.org/learn/gcp-fundamentals?specialization=cloud-engineering-gcp)
@@ -45,6 +45,20 @@ Preparation for Google Cloud Platform -  Associate Cloud Engineer certification
 - [Create and Manage Cloud Resources](<https://www.qwiklabs.com/quests/120> )
 - [Set Up and Configure a Cloud Environment in Google Cloud](<https://www.qwiklabs.com/quests/119>)
 - [Perform Foundational Infrastructure Tasks in Google Cloud](<https://www.qwiklabs.com/quests/118>)
+
+### Notes
+
+- [General](./notes/general.md)
+- [Cloud Storage](./notes/cloud-storage.md)
+- [Compute Engine](./notes/compute-engine.md)
+- [IAM](./notes/iam.md)
+
+### Sample Questions
+
+- [Course Diagnostic Questions](./questions/diagnostic-questions.md)
+- [Google Sample Questions](./questions/sample-questions.md)
+- [Examtopics Questions](./questions/questions.md)
+- [Examtopics Answers](./questions/answers.md)
 
 ### Relevant Official Documentation
 
