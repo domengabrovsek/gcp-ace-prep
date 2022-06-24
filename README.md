@@ -74,6 +74,8 @@ Resources I've used for preparation for Google Cloud Platform -  Associate Cloud
 
 ### Sample Exam Questions
 
+- [Whizlabs Questions 1](<https://www.whizlabs.com/blog/google-cloud-interview-questions/>)
+- [Whizlabs Questions 2](<https://www.whizlabs.com/blog/gcp-associate-cloud-engineer-questions/>)
 - [ExamTopics - GCP ACE](<https://www.examtopics.com/exams/google/associate-cloud-engineer/view/>)
 - [Google Sample Questions](<https://docs.google.com/forms/d/e/1FAIpQLSfexWKtXT2OSFJ-obA4iT3GmzgiOCGvjrT9OfxilWC1yPtmfQ/viewform>)
 
