@@ -83,3 +83,16 @@ reference:
 
 reference: 
 - https://medium.com/falafel-software/sql-server-in-the-google-cloud-a17e8a1f11ce
+
+21) A - Create two configurations using gcloud config configurations create [NAME]. Run gcloud config configurations activate [NAME] to switch between accounts when running the commands to start the Compute Engine instances.
+
+22) D - Execute the Deployment Manager template using the ג€"-preview option in the same project, and observe the state of interdependent resources.
+
+reference:
+  - https://cloud.google.com/deployment-manager/docs/deployments/updating-deployments
+
+23) D - Cloud Pub/Sub, Cloud Dataflow, Cloud Bigtable, BigQuery
+
+reference: 
+    - https://cloud.google.com/solutions/correlating-time-series-dataflow
+

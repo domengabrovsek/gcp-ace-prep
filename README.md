@@ -6,6 +6,10 @@ Resources I've used for preparation for Google Cloud Platform -  Associate Cloud
 
 ### Study areas
 
+- Setting up a Cloud Solution Environment
+  - Setting up cloud projects and accounts
+  - Managing billing configuration
+  - Installing and configuring the CLI (Cloud SDK)
 - Planning and Configuring Cloud Solutions
   - Planning and estimating using the Pricing Calculator
   - Planning and configuring compute resources
