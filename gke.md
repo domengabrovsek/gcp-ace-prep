@@ -26,6 +26,13 @@ D. Create a new cluster with both n1 "standard2" and n2 "highmem16" nodes. Redep
 
 ---
 
+(108) - A team of data scientists infrequently needs to use a Google Kubernetes Engine (GKE) cluster that you manage. They require GPUs for some long- running, non- restartable jobs. You want to minimize cost. What should you do?
+
+**A. Enable node auto-provisioning on the GKE cluster.**
+B. Create a VerticalPodAutscaler for those workloads.
+C. Create a node pool with preemptible VMs and GPUs attached to those VMs.
+D. Create a node pool of instances with GPUs, and enable autoscaling on this node pool with a minimum size of 1.
+
 ---
 
 ## references:

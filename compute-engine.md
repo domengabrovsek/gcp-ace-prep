@@ -127,6 +127,13 @@ D. Delete the current instance template and replace it with a new instance templ
 
 ---
 
+(112) - You have a workload running on Compute Engine that is critical to your business. You want to ensure that the data on the boot disk of this workload is backed up regularly. You need to be able to restore a backup as quickly as possible in case of disaster. You also want older backups to be cleaned automatically to save on cost. You want to follow Google-recommended practices. What should you do?
+
+A. Create a Cloud Function to create an instance template.
+**B. Create a snapshot schedule for the disk using the desired interval.**
+C. Create a cron job to create a new disk from the disk using gcloud.
+D. Create a Cloud Task to create an image and export it to Cloud Storage.
+
 ---
 
 references:
@@ -139,4 +146,5 @@ references:
 - https://cloud.google.com/compute/docs/machine-types#recommendations_for_machine_types
 - https://cloud.google.com/compute/docs/disks/scheduled-snapshots
 - https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances
+- https://cloud.google.com/compute/docs/disks/snapshot-best-practices
   

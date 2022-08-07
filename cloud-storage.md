@@ -57,6 +57,16 @@ D. Upload the data into Cloud Spanner using the import function in the console.
 
 ---
 
+(107) - You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to
+access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?
+
+A. Cold Storage
+**B. Nearline Storage**
+C. Regional Storage
+D. Multi-Regional Storage
+
+---
+
 references:
 
 - https://cloud.google.com/storage/docs/access-control/signed-urls
