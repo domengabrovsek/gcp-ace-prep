@@ -44,6 +44,13 @@ C. Enable Audit Logs on the IAM & admin page for all resources, and validate the
 
 ---
 
+(118) - You need to create a custom IAM role for use with a GCP service. All permissions in the role must be suitable for production use. You also want to clearly share with your organization the status of the custom role. This will be the first version of the custom role. What should you do?
+
+**A. Use permissions in your role that use the 'supported' support level for role permissions. Set the role stage to ALPHA while testing the role permissions.**
+B. Use permissions in your role that use the 'supported' support level for role permissions. Set the role stage to BETA while testing the role permissions.
+C. Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to ALPHA while testing the role permissions.
+D. Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to BETA while testing the role permissions.
+
 ---
 
 ---
@@ -53,3 +60,4 @@ references:
 - https://cloud.google.com/architecture/identity/assessing-existing-user-accounts
 - https://cloud.google.com/sdk/docs/authorizing
 - https://cloud.google.com/iam/docs/understanding-custom-roles#basic_concepts
+- https://cloud.google.com/iam/docs/custom-roles-permissions-support

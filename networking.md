@@ -49,6 +49,13 @@ D. Create a route on the VPC to route all traffic to the instance over the VPN t
 
 ---
 
+(129) - Your Dataproc cluster runs in a single Virtual Private Cloud (VPC) network in a single subnet with range 172.16.20.128/25. There are no private IP addresses available in the VPC network. You want to add new VMs to communicate with your cluster using the minimum number of steps. What should you do?
+
+**A. Modify the existing subnet range to 172.16.20.0/24.**
+B. Create a new Secondary IP Range in the VPC and configure the VMs to use that range.
+C. Create a new VPC network for the VMs. Enable VPC Peering between the VMs' VPC network and the Dataproc cluster VPC network.
+D. Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable VPC network Peering between the Dataproc VPC network and the VMs VPC network. Configure a custom Route exchange.
+
 ---
 
 references:

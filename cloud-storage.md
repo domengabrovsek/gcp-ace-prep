@@ -48,10 +48,16 @@ D. Set up a policy that uses Standard storage for 30 days, then moves to Coldlin
 
 ---
 
+(119) - Your company has a large quantity of unstructured data in different file formats. You want to perform ETL transformations on the data. You need to make the data accessible on Google Cloud so it can be processed by a Dataflow job. What should you do?
 
+A. Upload the data to BigQuery using the bq command line tool.
+**B. Upload the data to Cloud Storage using the gsutil command line tool.**
+C. Upload the data into Cloud SQL using the import function in the console.
+D. Upload the data into Cloud Spanner using the import function in the console.
 
 ---
 
 references:
 
 - https://cloud.google.com/storage/docs/access-control/signed-urls
+- https://cloud.google.com/architecture/performing-etl-from-relational-database-into-bigquery

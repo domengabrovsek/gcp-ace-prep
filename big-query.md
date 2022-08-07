@@ -22,6 +22,14 @@ C. Create a Cloud Dataproc cluster that runs a Spark job to extract data from Cl
 
 ---
 
+(130) - You manage an App Engine Service that aggregates and visualizes data from BigQuery. The application is deployed with the default App Engine Service account.
+The data that needs to be visualized resides in a different project managed by another team. You do not have access to this project, but you want your application to be able to read data from the BigQuery dataset. What should you do?
+
+A. Ask the other team to grant your default App Engine Service account the role of BigQuery Job User.
+**B. Ask the other team to grant your default App Engine Service account the role of BigQuery Data Viewer.**
+C. In Cloud IAM of your project, ensure that the default App Engine service account has the role of BigQuery Data Viewer.
+D. In Cloud IAM of your project, grant a newly created service account from the other team the role of BigQuery Job User in your project.
+
 ---
 
 ---
