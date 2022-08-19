@@ -58,7 +58,27 @@ D. Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable V
 
 ---
 
-references:
+(91) - Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google
+Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?
+
+A. In Google Cloud, configure the VPC as a host for Shared VPC.
+B. In Google Cloud, configure the VPC for VPC Network Peering.
+C. Create bastion hosts both in your on-premises environment and on Google Cloud. Configure both as proxy servers using their public IP addresses.
+**D. Set up Cloud VPN between the infrastructure on-premises and Google Cloud.**
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+## references:
 
 - https://cloud.google.com/nat/docs/overview
 - https://cloud.google.com/iap/docs/external-identities

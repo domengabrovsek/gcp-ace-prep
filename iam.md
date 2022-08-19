@@ -110,8 +110,54 @@ B. Add the user to roles/iam.securityAdmin role.
 C. Add the user to roles/iam.serviceAccountUser role. 
 **D. Add the user to roles/iam.serviceAccountAdmin role.**
 
+---
+
+(104) - Your company set up a complex organizational structure on Google Cloud. The structure includes hundreds of folders and projects. Only a few team members should be able to view the hierarchical structure. You need to assign minimum permissions to these team members, and you want to follow Google-recommended practices. What should you do?
+
+A. Add the users to roles/browser role.
+B. Add the users to roles/iam.roleViewer role.
+**C. Add the users to a group, and add this group to roles/browser.**
+D. Add the users to a group, and add this group to roles/iam.roleViewer role.
 
 ---
+
+(102) - Your organization needs to grant users access to query datasets in BigQuery but prevent them from accidentally deleting the datasets. You want a solution that follows Google-recommended practices. What should you do?
+
+A. Add users to roles/bigquery user role only, instead of roles/bigquery dataOwner.
+B. Add users to roles/bigquery dataEditor role only, instead of roles/bigquery dataOwner.
+C. Create a custom role by removing delete permissions, and add users to that role only.
+**D. Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role.**
+
+---
+
+(100) - Your organization has strict requirements to control access to Google Cloud projects. You need to enable your Site Reliability Engineers (SREs) to approve requests from the Google Cloud support team when an SRE opens a support case. You want to follow Google-recommended practices. What should you do?
+
+A. Add your SREs to roles/iam.roleAdmin role.
+B. Add your SREs to roles/accessapproval.approver role.
+C. Add your SREs to a group and then add this group to roles/iam.roleAdmin.role.
+**D. Add your SREs to a group and then add this group to roles/accessapproval.approver role.**
+
+---
+
+(99) - Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?
+
+A. Add the group for the finance team to roles/billing user role.
+B. Add the group for the finance team to roles/billing admin role.
+**C. Add the group for the finance team to roles/billing viewer role.**
+D. Add the group for the finance team to roles/billing project/Manager role.
+
+---
+
+(95) - You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?
+
+A. Open the Cloud Spanner console to review configurations.
+B. Open the IAM & admin console to review IAM policies for Cloud Spanner roles.
+C. Go to the Stackdriver Monitoring console and review information for Cloud Spanner.
+**D. Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles.**
+
+---
+
+
 references:
 
 - https://cloud.google.com/architecture/identity/assessing-existing-user-accounts

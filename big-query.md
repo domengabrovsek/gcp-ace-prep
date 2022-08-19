@@ -32,8 +32,30 @@ D. In Cloud IAM of your project, grant a newly created service account from the 
 
 ---
 
+(96) - Your company implemented BigQuery as an enterprise data warehouse. Users from multiple business units run queries on this data warehouse. However, you notice that query costs for BigQuery are very high, and you need to control costs. Which two methods should you use? (Choose two.)
+
+A. Split the users from business units to multiple projects.
+**B. Apply a user- or project-level custom query quota for BigQuery data warehouse.**
+C. Create separate copies of your BigQuery data warehouse for each business unit.
+D. Split your BigQuery data warehouse into multiple data warehouses for each business unit.
+**E. Change your BigQuery query model from on-demand to flat rate. Apply the appropriate number of slots to each Project.**
+
 ---
 
+(93) - Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?
+
+**A. Go to Data Catalog and search for employee_ssn in the search box.**
+B. Write a shell script that uses the bq command line tool to loop through all the projects in your organization.
+C. Write a script that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find the employee_ssn column.
+D. Write a Cloud Dataflow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find employee_ssn column.
+
+---
+
+---
+
+---
+
+---
 
 references:
 

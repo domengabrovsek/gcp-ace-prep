@@ -67,7 +67,30 @@ D. Multi-Regional Storage
 
 ---
 
+(92) - You want to select and configure a solution for storing and archiving data on Google Cloud Platform. You need to support compliance objectives for data from one geographic location. This data is archived after 30 days and needs to be accessed annually. What should you do?
+
+A. Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.
+B. Select Multi-Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.
+C. Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Nearline Storage.
+**D. Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.**
+
+---
+
+(90) - You want to configure a solution for archiving data in a Cloud Storage bucket. The solution must be cost-effective. Data with multiple versions should be archived after 30 days. Previous versions are accessed once a month for reporting. This archive data is also occasionally updated at month-end. What should you do?
+
+A. Add a bucket lifecycle rule that archives data with newer versions after 30 days to Coldline Storage.
+**B. Add a bucket lifecycle rule that archives data with newer versions after 30 days to Nearline Storage.**
+C. Add a bucket lifecycle rule that archives data from regional storage after 30 days to Coldline Storage.
+D. Add a bucket lifecycle rule that archives data from regional storage after 30 days to Nearline Storage.
+
+---
+
+---
+
 references:
 
 - https://cloud.google.com/storage/docs/access-control/signed-urls
 - https://cloud.google.com/architecture/performing-etl-from-relational-database-into-bigquery
+- https://cloud.google.com/storage/docs/storage-classes
+- https://cloud.google.com/storage/docs/managing-lifecycles
+

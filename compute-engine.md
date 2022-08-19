@@ -136,6 +136,24 @@ D. Create a Cloud Task to create an image and export it to Cloud Storage.
 
 ---
 
+(101) - You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?
+
+A. Use a Shielded VM.
+B. Use a Preemptible VM.
+C. Use a sole-tenant node.
+**D. Enable deletion protection on the instance.**
+
+---
+
+---
+
+---
+
+---
+
+---
+
+
 references:
 
 - [disk IOPS](https://cloud.google.com/compute/docs/disks/performance)
