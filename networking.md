@@ -1,6 +1,7 @@
 # networking
 
 questions:
+
 - 179
 
 ---
@@ -9,7 +10,7 @@ questions:
 
 A. Configure Cloud NAT for all subnets of your VPC to be used when egressing from the VM instances.
 **B. Create a private zone on Cloud DNS, and configure the applications with the DNS name.**
-C. Configure the IP of the database as custom metadata for each instance, and query the metadata server. 
+C. Configure the IP of the database as custom metadata for each instance, and query the metadata server.
 D. Query the Compute Engine internal DNS from the applications to retrieve the IP of the database.
 
 ---
@@ -33,7 +34,7 @@ C. Set up a high-priority (1000) rule that blocks all egress and a low-priority 
 
 (149) - You are running multiple VPC-native Google Kubernetes Engine clusters in the same subnet. The IPs available for the nodes are exhausted, and you want to ensure that the clusters can grow in nodes when needed. What should you do?
 
-A. Create a new subnet in the same region as the subnet being used. 
+A. Create a new subnet in the same region as the subnet being used.
 B. Add an alias IP range to the subnet used by the GKE clusters.
 C. Create a new VPC, and set up VPC peering with the existing VPC. **D. Expand the CIDR range of the relevant subnet for the cluster.**
 
@@ -68,17 +69,40 @@ C. Create bastion hosts both in your on-premises environment and on Google Cloud
 
 ---
 
+(87) - You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?
+
+A. Add the network tag allow-udp-636 to the VM instance running the LDAP server.
+B. Create a route called allow-udp-636 and set the next hop to be the VM instance running the LDAP server.
+**C. Add a network tag of your choice to the instance. Create a firewall rule to allow ingress on UDP port 636 for that network tag.**
+D. Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag.
+
+---
+
+(82) - Your VMs are running in a subnet that has a subnet mask of 255.255.255.240. The current subnet has no more free IP addresses and you require an additional
+10 IP addresses for new VMs. The existing and new VMs should all be able to reach each other without additional routes. What should you do?
+
+**A. Use gcloud to expand the IP range of the current subnet.**
+B. Delete the subnet, and recreate it using a wider range of IP addresses.
+C. Create a new project. Use Shared VPC to share the current network with the new project.
+D. Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.
+
+---
+
+(79) - You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute
+Engine instances is running in its own VPC. What should you do?
+
+A. Verify that both projects are in a GCP Organization. Create a new VPC and add all instances.
+**B. Verify that both projects are in a GCP Organization. Share the VPC from one project and request that the Compute Engine instances in the other project use this shared VPC.**
+C. Verify that you are the Project Administrator of both projects. Create two new VPCs and add all instances.
+D. Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances.
+
 ---
 
 ---
 
 ---
 
----
+## references
 
----
-
-## references:
-
-- https://cloud.google.com/nat/docs/overview
-- https://cloud.google.com/iap/docs/external-identities
+- <https://cloud.google.com/nat/docs/overview>
+- <https://cloud.google.com/iap/docs/external-identities>

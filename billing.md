@@ -41,11 +41,18 @@ Google Cloud egress prices, totals over 100 dollars. Schedule the Cloud Function
 
 ---
 
+(88) - You need to set a budget alert for use of Compute Engine services on one of the three Google Cloud Platform projects that you manage. All three projects are linked to a single billing account. What should you do?
+
+**A. Verify that you are the project billing administrator. Select the associated billing account and create a budget and alert for the appropriate project.**
+B. Verify that you are the project billing administrator. Select the associated billing account and create a budget and a custom alert.
+C. Verify that you are the project administrator. Select the associated billing account and create a budget for the appropriate project.
+D. Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert.
+
 ---
 
 ---
 
 ## references
 
-- https://cloud.google.com/billing/docs/how-to/budgets
-- https://cloud.google.com/billing/docs/how-to/visualize-data
+- <https://cloud.google.com/billing/docs/how-to/budgets>
+- <https://cloud.google.com/billing/docs/how-to/visualize-data>

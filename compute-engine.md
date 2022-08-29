@@ -1,7 +1,8 @@
 # compute engine
 
 questions:
-- 191 
+
+- 191
 - 183
 - 181
 - 176
@@ -20,7 +21,7 @@ D. Enable Preemptibility on the instance.
 
 (150) - You have a batch workload that runs every night and uses a large number of virtual machines (VMs). It is fault-tolerant and can tolerate some of the VMs being terminated. The current cost of VMs is too high. What should you do?
 
-**A. Run a test using simulated maintenance events. If the test is successful, use preemptible N1 Standard VMs when running future jobs.** 
+**A. Run a test using simulated maintenance events. If the test is successful, use preemptible N1 Standard VMs when running future jobs.**
 B. Run a test using simulated maintenance events. If the test is successful, use N1 Standard VMs when running future jobs.
 C. Run a test using a managed instance group. If the test is successful, use N1 Standard VMs in the managed instance group when running future jobs.
 D. Run a test using N1 standard VMs instead of N2. If the test is successful, use N1 Standard VMs when running future jobs.
@@ -29,7 +30,7 @@ D. Run a test using N1 standard VMs instead of N2. If the test is successful, us
 
 (144) - You have a Compute Engine instance hosting an application used between 9 AM and 6 PM on weekdays. You want to back up this instance daily for disaster recovery purposes. You want to keep the backups for 30 days. You want the Google-recommended solution with the least management overhead and the least number of services. What should you do?
 
-A. 1. Update your instances' metadata to add the following value: snapshot €"schedule: 0 1 * * * 2. Update your instances' metadata to add the following value: snapshot €"retention: 30
+A. 1. Update your instances' metadata to add the following value: snapshot €"schedule: 0 1 ** * 2. Update your instances' metadata to add the following value: snapshot €"retention: 30
 **B. 1. In the Cloud Console, go to the Compute Engine Disks page and select your instance's disk. 2. In the Snapshot Schedule section, select Create Schedule and configure the following parameters: - Schedule frequency: Daily - Start time: 1:00 AM 2:00 "€ AM - Autodelete snapshots after: 30 days**
 C. 1. Create a Cloud Function that creates a snapshot of your instance's disk. 2. Create a Cloud Function that deletes snapshots that are older than 30 days. 3. Use Cloud Scheduler to trigger both Cloud Functions daily at 1:00 AM.
 D. 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to execute these scripts daily at 1:00 AM.
@@ -95,7 +96,7 @@ C. Configure a Health Check on the instance and set a Low Healthy Threshold valu
 
 A. Create a Compute Engine snapshot of your base VM. Create your images from that snapshot.
 **B. Create a Compute Engine snapshot of your base VM. Create your instances from that snapshot.**
-C. Create a custom Compute Engine image from a snapshot. Create your images from that image. 
+C. Create a custom Compute Engine image from a snapshot. Create your images from that image.
 D. Create a custom Compute Engine image from a snapshot. Create your instances from that image.
 
 ---
@@ -145,24 +146,46 @@ C. Use a sole-tenant node.
 
 ---
 
+(89) - You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?
+
+**A. When creating the VM, use machine type n1-standard-96.**
+B. When creating the VM, use Intel Skylake as the CPU platform.
+C. Create the VM using Compute Engine default settings. Use gcloud to modify the running instance to have 96 vCPUs.
+D. Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations.
+
 ---
+
+(74) - You want to con gure an SSH connection to a single Compute Engine instance for users in the dev1 group. This instance is the only resource in this particular
+Google Cloud Platform project that the dev1 users should be able to connect to. What should you do?
+
+**A. Set metadata to enable-oslogin=true for the instance. Grant the dev1 group the compute.osLogin role. Direct them to use the Cloud Shell to ssh to that instance.**
+B. Set metadata to enable-oslogin=true for the instance. Set the service account to no service account for that instance. Direct them to use the Cloud Shell to ssh to that instance.
+C. Enable block project wide keys for the instance. Generate an SSH key for each user in the dev1 group. Distribute the keys to dev1 users and direct them to use their third-party tools to connect.
+D. Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect.
+
+---
+
+(73) - You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?
+
+A. After the VM has been created, use your Google Account credentials to log in into the VM.
+**B. After the VM has been created, use gcloud compute reset-windows-password to retrieve the login credentials for the VM.**
+C. When creating the VM, add metadata to the instance using 'windows-password' as the key and a password as the value.
+D. After the VM has been created, download the JSON private key for the default Compute Engine service account. Use the credentials in the JSON  le to log in to the VM.
 
 ---
 
 ---
-
----
-
 
 references:
 
 - [disk IOPS](https://cloud.google.com/compute/docs/disks/performance)
 - [disk types](https://cloud.google.com/compute/docs/disks)
-- [service accounts](https://cloud.google.com/compute/docs/access/service-accounts) 
-- https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts
-- https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#using
-- https://cloud.google.com/compute/docs/machine-types#recommendations_for_machine_types
-- https://cloud.google.com/compute/docs/disks/scheduled-snapshots
-- https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances
-- https://cloud.google.com/compute/docs/disks/snapshot-best-practices
-  
+- [service accounts](https://cloud.google.com/compute/docs/access/service-accounts)
+- [general purpose machines](https://cloud.google.com/compute/docs/general-purpose-machines)
+- <https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts>
+- <https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances#using>
+- <https://cloud.google.com/compute/docs/machine-types#recommendations_for_machine_types>
+- <https://cloud.google.com/compute/docs/disks/scheduled-snapshots>
+- <https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances>
+- <https://cloud.google.com/compute/docs/disks/snapshot-best-practices>
+- <https://cloud.google.com/compute/docs/instances/access-overview>

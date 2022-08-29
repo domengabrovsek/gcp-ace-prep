@@ -1,0 +1,60 @@
+[
+  {
+    "acc-1": {
+      "regions": [
+        {
+          "region": "region-1",
+          "resources": [
+            {
+              "arn": "",
+              "type": "",
+              "engine": "",
+              "status": "",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "region": "region-2",
+          "resources": [
+            {
+              "arn": "",
+              "type": "",
+              "engine": "",
+              "status": "",
+              "comment": ""
+            }
+          ]
+        }
+      ]
+    },
+    "acc-2": {
+      "regions": [
+        {
+          "region": "region-1",
+          "resources": [
+            {
+              "arn": "",
+              "type": "",
+              "engine": "",
+              "status": "",
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "region": "region-2",
+          "resources": [
+            {
+              "arn": "",
+              "type": "",
+              "engine": "",
+              "status": "",
+              "comment": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

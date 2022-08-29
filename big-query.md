@@ -1,6 +1,7 @@
 # big query
 
 questions:
+
 - 178
 
 (165) You are running a data warehouse on BigQuery. A partner company is offering a recommendation engine based on the data in your data warehouse. The partner company is also running their application on Google Cloud. They manage the resources in their own project, but they need access to the BigQuery dataset in your project. You want to provide the partner company with access to the dataset. What should you do?
@@ -51,6 +52,13 @@ D. Write a Cloud Dataflow job that loops through all the projects in your organi
 
 ---
 
+(85) - You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?
+
+A. Load data in Cloud Datastore and run a SQL query against it.
+B. Create a BigQuery table and load data in BigQuery. Run a SQL query on this table and drop this table after you complete your request.
+**C. Create external tables in BigQuery that point to Cloud Storage buckets and run a SQL query on these external tables to complete your request.**
+D. Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries.
+
 ---
 
 ---
@@ -59,5 +67,5 @@ D. Write a Cloud Dataflow job that loops through all the projects in your organi
 
 references:
 
-- https://cloud.google.com/bigquery/docs/access-control
-- https://cloud.google.com/bigquery/docs/external-data-sources
+- <https://cloud.google.com/bigquery/docs/access-control>
+- <https://cloud.google.com/bigquery/docs/external-data-sources>

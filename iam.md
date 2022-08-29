@@ -11,6 +11,7 @@
 ```
 
 questions:
+
 - 190
 - 186
 - 170
@@ -107,7 +108,7 @@ D. Ask the security team to grant you the Project Editor role in an existing pro
 
 A. Add the user to roles/iam.roleAdmin role.
 B. Add the user to roles/iam.securityAdmin role.
-C. Add the user to roles/iam.serviceAccountUser role. 
+C. Add the user to roles/iam.serviceAccountUser role.
 **D. Add the user to roles/iam.serviceAccountAdmin role.**
 
 ---
@@ -157,11 +158,45 @@ C. Go to the Stackdriver Monitoring console and review information for Cloud Spa
 
 ---
 
+(86) - You need to verify that a Google Cloud Platform service account was created at a particular time. What should you do?
+
+**A. Filter the Activity log to view the Configuration category. Filter the Resource type to Service Account.**
+B. Filter the Activity log to view the Configuration category. Filter the Resource type to Google Project.
+C. Filter the Activity log to view the Data Access category. Filter the Resource type to Service Account.
+D. Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project.
+
+---
+
+(83) - Your organization uses G Suite for communication and collaboration. All users in your organization have a G Suite account. You want to grant some G Suite users access to your Cloud Platform project. What should you do?
+
+A. Enable Cloud Identity in the GCP Console for your domain.
+**B. Grant them the required IAM roles using their G Suite email address.**
+C. Create a CSV sheet with all users' email addresses. Use the gcloud command line tool to convert them into Google Cloud Platform accounts.
+D. In the G Suite console, add the users to a special group called cloud-console-users@yourdomain.com. Rely on the default behavior of the Cloud Platform to grant users access if they are members of this group.
+
+---
+
+(80) - You want to add a new auditor to a Google Cloud Platform project. The auditor should be allowed to read, but not modify, all project items. How should you configure the auditor's permissions?
+A. Create a custom role with view-only project permissions. Add the user's account to the custom role.
+B. Create a custom role with view-only service permissions. Add the user's account to the custom role.
+**C. Select the built-in IAM project Viewer role. Add the user's account to this role.**
+D. Select the built-in IAM service Viewer role. Add the user's account to this role.
+
+---
+
+---
+
+---
+
+---
+
+---
 
 references:
 
-- https://cloud.google.com/architecture/identity/assessing-existing-user-accounts
-- https://cloud.google.com/sdk/docs/authorizing
-- https://cloud.google.com/iam/docs/understanding-custom-roles#basic_concepts
-- https://cloud.google.com/iam/docs/custom-roles-permissions-support
-- https://cloud.google.com/iam/docs/job-functions/auditing#scenario_external_auditors
+- <https://cloud.google.com/architecture/identity/assessing-existing-user-accounts>
+- <https://cloud.google.com/sdk/docs/authorizing>
+- <https://cloud.google.com/iam/docs/understanding-custom-roles#basic_concepts>
+- <https://cloud.google.com/iam/docs/custom-roles-permissions-support>
+- <https://cloud.google.com/iam/docs/job-functions/auditing#scenario_external_auditors>
+- <https://cloud.google.com/resource-manager/docs/creating-managing-organization>
